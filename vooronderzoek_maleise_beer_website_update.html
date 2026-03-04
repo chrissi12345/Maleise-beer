@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vooronderzoek - Maleise Beer</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+
+header {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Sun_Bear_Beruang_Madu.jpg") center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 55px;
+    color: #ffd369;
+}
+
+nav {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    margin: 0 20px;
+    font-weight: bold;
+    color: #ffd369;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 12%;
+}
+
+section:nth-child(even) {
+    background: rgba(255,255,255,0.05);
+}
+
+.section-title {
+    color: #ffd369;
+    border-bottom: 3px solid #ffd369;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.highlight-box {
+    background: #ffd369;
+    color: black;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+footer {
+    background: black;
+    padding: 30px;
+    text-align: center;
+    color: #aaa;
+}
+footer span {
+    color: #ffd369;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>Maleise Beer</h1>
+        <p>Gedrag in het Wild versus Gedrag in Burgers’ Zoo</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#achtergrond">Achtergrond informatie</a>
+    <a href="#onderzoek">Onderzoek</a>
+    <a href="#taakverdeling">Taakverdeling</a>
+</nav>
+
+<section id="achtergrond">
+    <h2 class="section-title">Achtergrondinformatie</h2>
+
+    <h3>Leefomgeving in het wild</h3>
+    <p>
+        De maleise beer leeft in de tropische regenwouden van Zuidoost-Azië. Het is daar warm, vochtig en het bos is dichtbegroeid. De beer is een goede klimmer en maakt rustplaatsen hoog in bomen.
+    </p>
+
+    <h3>Leefwijze in het wild</h3>
+    <p>
+        In het wild leeft de maleise beer meestal alleen. Hij is vooral actief in de vroege ochtend en in de avond. Overdag rust hij vaak in bomen of op een beschutte plek. Omdat voedsel niet op één plek te vinden is, moet hij veel rondlopen, klimmen en graven. Een groot deel van zijn dag bestaat uit het zoeken naar honing, insecten en fruit. Dit kost veel energie en zorgt ervoor dat hij constant in beweging is.
+    </p>
+
+    <h3>Leefwijze in Burgers’ Zoo</h3>
+    <p>
+        In Burgers’ Zoo leeft de maleise beer in een omgeving die lijkt op zijn natuurlijke leefgebied. Er zijn bomen, klimmogelijkheden en schuilplaatsen zodat hij natuurlijk gedrag kan laten zien.
+        Toch is er een belangrijk verschil met het wild: het voedsel wordt op vaste momenten gegeven. Daardoor hoeft de beer minder lang te zoeken naar eten. Ook zijn er geen natuurlijke vijanden in de dierentuin. Hierdoor is zijn dagritme vaak regelmatiger en voorspelbaarder dan in het wild.
+    </p>
+
+    <h3>Voedsel</h3>
+    <p>
+        Het is een omnivoor (alleseter). Hij eet honing, termieten,
+        larven, fruit en kleine dieren. Met zijn lange tong kan hij diep
+        in boomholtes bij honing komen. In de dierentuin krijgt hij een
+        aangepast dieet dat lijkt op zijn natuurlijke voeding.
+    </p>
+
+    <h3>Natuurlijke vijanden</h3>
+    <p>
+        Volwassen beren hebben weinig natuurlijke vijanden,
+        maar tijgers en grote slangen kunnen gevaarlijk zijn.
+        De grootste bedreiging is de mens door ontbossing en stroperij.
+        In de dierentuin heeft de beer geen natuurlijke vijanden.
+    </p>
+
+    <h3>Vergelijking Wild vs. Dierentuin</h3>
+    <ul>
+        <li><strong>Voedsel verkrijgen:</strong></li>
+        <li><a>In het wild zelf zoeken.</a></li>
+        <li><a>In de dierentuin op vaste tijden krijgen.</a></li>
+        <li><strong>Activiteit:</strong></li>
+        <li><a>In het wild afhankelijk van omgeving.</a></li>
+        <li><a>In de dierentuin regelmatiger.</a></li>
+        <li><strong>Vijanden:</strong></li>
+        <li><a>In het wild aanwezig.</a></li>
+        <li><a>In de dierentuin niet.</a></li>
+        <li><strong>Beweging:</strong></li>
+        <li><a> In het wild grote afstanden.</a></li>
+        <li><a>In de dierentuin beperkt tot het verblijf.</a></li>
+    </ul>
+
+    <h3>Foto's van de Maleise Beer</h3>
+
+    <div class="image-gallery">
+        <img src="https://malaysianwildlife.org/wp-content/uploads/2019/10/60308692_1275691565916150_285907095197319168_o.jpg" alt="Maleise beer in het wild">
+        <img src="https://www.burgerszoo.nl/media/s4dled2y/20150714-img_6944.jpg?rxy=0.335,0.38666666666666666&width=394&height=394&v=1db7d69259ac660" alt="Maleise beer staand">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhs1YUfQrbJoH49e8xP5xgoYyhttl5RRWPqA&s" alt="Maleise beer klimmend in boom">
+    </div>
+
+    <h3>Bronnen</h3>
+    <h4>We hebben deze bronnen gebruikt om de achtergrond informatie te krijgen.</h4>
+    <p>
+        Burgers’ Zoo – Informatie over de maleise beer:<br>
+        https://www.burgerszoo.nl
+        <br><br>
+        World Wildlife Fund (WWF) – Sun Bear informatie:<br>
+        https://www.worldwildlife.org/species/sun-bear
+        <br><br>
+        IUCN Red List – Helarctos malayanus:
+        https://www.iucnredlist.org
+    </p>
+
+</section>
+
+<section id="onderzoek">
+    <h2 class="section-title">Onderzoek</h2>
+
+    <h3>Onderzoeksvraag</h3>
+    <p>
+        Wat is de invloed van het tijdstip op een dag op hoe actief de maleise beer is
+        in Burgers’ Zoo en in hoe veel komt dit overeen met het activiteitspatroon
+        van de maleise beer in het wild?
+    </p>
+
+    <h3>Hypothese</h3>
+    <div class="highlight-box">
+        Wij verwachten dat de maleise beer in Burgers’ Zoo vooral rond etenstijd
+        actiever is en later op de dag minder actief wordt. In vergelijking met het wild
+        verwachten wij minder variatie in gedrag, omdat er geen natuurlijke vijanden zijn
+        en voedsel op vaste momenten wordt aangeboden.
+    </div>
+</section>
+
+<section id="taakverdeling">
+    <h2 class="section-title">Taakverdeling</h2>
+
+    <h3>Taakverdeling Vooronderzoek</h3>
+
+    <p><strong>Puk</strong></p>
+    <ul>
+        <li>Zoekt informatie over leefgebied, voedsel en vijanden</li>
+        <li>Controleert of de bronnen betrouwbaar zijn</li>
+    </ul>
+
+    <p><strong>Ben</strong></p>
+    <ul>
+        <li>Helpt Christian met ideeën voor de website</li>
+        <li>Helpt met informatie zoeken</li>
+    </ul>
+
+    <p><strong>Milo</strong></p>
+    <ul>
+        <li>Helpt bij het formuleren van onderzoeksvraag en hypothese</li>
+        <li>Controleert of de teksten duidelijk zijn</li>
+    </ul>
+
+    <p><strong>Christian</strong></p>
+    <ul>
+        <li>Bouwt en ontwerpt de website</li>
+        <li>Zorgt dat alle informatie netjes wordt verwerkt in de website</li>
+    </ul>
+
+    <h3>Taakverdeling Tijdens het Onderzoek in Burgers’ Zoo</h3>
+    <p>
+        Tijdens het observeren gebruiken we een wisselsysteem. Na elke ronde schuift iedereen
+        één taak door, zodat iedereen elke rol uitvoert.
+    </p>
+
+    <ul>
+        <li><strong>Benoemer:</strong> Zegt hardop wat de beer doet.</li>
+        <li><strong>Schrijver:</strong> Schrijft het gedrag precies op.</li>
+        <li><strong>Tijdwaarnemer:</strong> Houdt de tijd bij met een stopwatch.</li>
+        <li><strong>Reserve:</strong> Wacht op de volgende ronde en controleert het formulier.</li>
+    </ul>
+  <section id="ethogram">
+<h2>Ethogram</h2>
+<h4>Het onderstaande tabel toont de gedragingen die wij tijdens het onderzoek gaan registreren.</h4>
+<table>
+<tr><th>Afkorting</th><th>Gedrag</th><th>Beschrijving</th></tr>
+<tr><td>LO</td><td>Lopen</td><td>De beer verplaatst zich lopend over de grond.</td></tr>
+<tr><td>ETN</td><td>Eten</td><td>De beer is actief bezig met voedsel.</td></tr>
+<tr><td>RU</td><td>Rust</td><td>De beer ligt of zit zonder actieve beweging.</td></tr>
+<tr><td>KL</td><td>Klimmen</td><td>De beer bevindt zich klimmend in bomen of constructies.</td></tr>
+<tr><td>DRI</td><td>Drinken</td><td>De beer is actief bezig met water.</td></tr>
+</table>
+</section>
+</section>
+
+<footer>
+    Vooronderzoek Biologie | <span>Maleise Beer – Christian, Ben, Milo & Puk</span>
+    <h3><strong>Ps: Wij hebben zelf de website gecodeerd, maar wisten niet op welke manier we de website zouden kunnen delen, dus hebben we het via chatgpt gedaan zodat we het makkelijk kunnen delen. We hebben geen chatgpt gebruikt!</strong></h3>
+</footer>
+
+</body>
+</html>
