@@ -1,0 +1,133 @@
+}
+
+footer {
+    background: black;
+    padding: 30px;
+    text-align: center;
+    color: #aaa;
+}
+footer span {
+    color: #ffd369;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.result-image-placeholder {
+    margin-top: 20px;
+    padding: 35px 20px;
+    border: 2px dashed #ffd369;
+    border-radius: 12px;
+    text-align: center;
+    color: #ffd369;
+    background: rgba(255, 211, 105, 0.08);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>Maleise Beer</h1>
+        <p>Gedrag in het Wild versus Gedrag in Burgers’ Zoo</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#achtergrond">Achtergrond informatie</a>
+    <a href="#onderzoek">Onderzoek</a>
+    <a href="#taakverdeling">Taakverdeling</a>
+    <a href="#resultaat-conclusie">Resultaat & conclusie</a>
+</nav>
+
+<section id="achtergrond">
+    <h2 class="section-title">Achtergrondinformatie</h2>
+
+    <h3>Leefomgeving in het wild</h3>
+    <p>
+        De maleise beer leeft in de tropische regenwouden van Zuidoost-Azië. Het is daar warm, vochtig en het bos is dichtbegroeid. De beer is een goede klimmer en maakt rustplaatsen hoog in bomen.
+    </p>
+
+    <h3>Leefwijze in het wild</h3>
+    <p>
+        In het wild leeft de maleise beer meestal alleen. Hij is vooral actief in de vroege ochtend en in de avond. Overdag rust hij vaak in bomen of op een beschutte plek. Omdat voedsel niet op één plek te vinden is, moet hij veel rondlopen, klimmen en graven. Een groot deel van zijn dag bestaat uit het zoeken naar honing, insecten en fruit. Dit kost veel energie en zorgt ervoor dat hij constant in beweging is.
+    </p>
+
+    <h3>Leefwijze in Burgers’ Zoo</h3>
+    <p>
+        In Burgers’ Zoo leeft de maleise beer in een omgeving die lijkt op zijn natuurlijke leefgebied. Er zijn bomen, klimmogelijkheden en schuilplaatsen zodat hij natuurlijk gedrag kan laten zien.
+        Toch is er een belangrijk verschil met het wild: het voedsel wordt op vaste momenten gegeven. Daardoor hoeft de beer minder lang te zoeken naar eten. Ook zijn er geen natuurlijke vijanden in de dierentuin. Hierdoor is zijn dagritme vaak regelmatiger en voorspelbaarder dan in het wild.
+    </p>
+
+    <h3>Voedsel</h3>
+    <p>
+        Het is een omnivoor (alleseter). Hij eet honing, termieten,
+        larven, fruit en kleine dieren. Met zijn lange tong kan hij diep
+@@ -257,31 +268,55 @@ footer span {
+    <ul>
+        <li><strong>Benoemer:</strong> Zegt hardop wat de beer doet.</li>
+        <li><strong>Schrijver:</strong> Schrijft het gedrag precies op.</li>
+        <li><strong>Tijdwaarnemer:</strong> Houdt de tijd bij met een stopwatch.</li>
+        <li><strong>Reserve:</strong> Wacht op de volgende ronde en controleert het formulier.</li>
+    </ul>
+  <section id="ethogram">
+<h2>Ethogram</h2>
+<h4>Het onderstaande tabel toont de gedragingen die wij tijdens het onderzoek gaan registreren.</h4>
+<table>
+<tr><th>Afkorting</th><th>Gedrag</th><th>Beschrijving</th></tr>
+<tr><td>LO</td><td>Lopen</td><td>De beer verplaatst zich lopend over de grond.</td></tr>
+<tr><td>ETN</td><td>Eten</td><td>De beer is actief bezig met voedsel.</td></tr>
+<tr><td>RU</td><td>Rust</td><td>De beer ligt of zit zonder actieve beweging.</td></tr>
+<tr><td>KL</td><td>Klimmen</td><td>De beer bevindt zich klimmend in bomen of constructies.</td></tr>
+<tr><td>DRI</td><td>Drinken</td><td>De beer is actief bezig met water.</td></tr>
+<tr><td>GR</td><td>Graven</td><td>De beer is actief bezig met graven.</td></tr>
+<tr><td>RE</td><td>Rennen</td><td>De beer is actief bezig met rennnen.</td></tr>
+<tr><td>SP</td><td>Spelen</td><td>De beer is actief bezig met spelen.</td></tr>
+<tr><td>ST</td><td>Staan</td><td>De beer is aan het staan op 2 poten.</td></tr>
+    
+</table>
+</section>
+</section>
+
+<section id="resultaat-conclusie">
+    <h2 class="section-title">Resultaat & Conclusie</h2>
+
+    <h3>Resultaat</h3>
+    <p>
+        <em>Vul hier na het bezoek aan Burgers’ Zoo de belangrijkste resultaten in.</em><br>
+        Bijvoorbeeld: welk gedrag het vaakst voorkwam, op welke tijden de beer actief was en welke verschillen jullie zagen met gedrag in het wild.
+    </p>
+
+    <h3>Conclusie</h3>
+    <p>
+        <em>Schrijf hier jullie conclusie op basis van de resultaten.</em><br>
+        Geef aan of de hypothese klopt en leg kort uit waarom.
+    </p>
+
+    <h3>Afbeelding van het onderzoek</h3>
+    <div class="result-image-placeholder">
+        Plaats hier je afbeelding (bijvoorbeeld een grafiek, observatieformulier of foto).
+        <br><br>
+        Vervang deze placeholder later door:
+        <code>&lt;img src="jouw-afbeelding.jpg" alt="Resultaat van het onderzoek"&gt;</code>
+    </div>
+</section>
+
+<footer>
+    Vooronderzoek Biologie | <span>Maleise Beer - Christian, Ben, Milo & Puk</span>
+</footer>
+
+</body>
+</html>
